@@ -2,6 +2,9 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+body a {
+    text-decoration: none;
+}
 .wrap{
     width: 1200px;
     margin: 0 auto;
@@ -20,6 +23,7 @@ body{
     border-bottom: 1px solid #000;
     padding-bottom: 8px;
     margin-bottom: 16px;
+    font-weight: bold;
 }
 .titleEn{
     margin-left:16px;
@@ -31,10 +35,74 @@ body{
     margin-bottom: 24px;
     line-height: 1.5;
 }
+.detail li h3{
+    font-weight: bold;
+}
+.detail p {
+    font-size: 20px;
+}
+.detail img{
+    margin: 8px 0px 8px 0px;
+}
 .skill{
     background-color: #415165;
     color: white;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 72px;
 }
 .skill .skillTitle{
+    margin: 0 auto;
+    width: 924px;
     font-size: 32px;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;
+}
+.skill .skillEn{
+    font-size: 24px;
+}
+.skill .skillList ul{
+    display: inline-block;
+    margin: 40px 0px 36px 0px;
+    padding-left: 24px;
+    border-left: 1px solid #FFFFFF;
+    text-align: left;
+}
+.skill .skillList ul li{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.skill .skillList ul li:last-child{
+    margin-bottom: 0px;
+}
+.workList .detail{
+    border-left: 1px solid #96A9C4;;
+    padding-left: 24px;
+    margin-left: 24px;
+}
+.footer {
+    background-color: #415165;
+    color: white;
+    text-align: center;
+    padding: 24px 0px 36px 0px;
+}
+.footer .ft_header{
+    font-size: 32px;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+.footer .ft_header span{
+    font-size: 24px;
+}
+.footer .ft_body {
+    font-size: 24px;
+}
+.footer .ft_body ul li{
+    margin-bottom: 16px;
+}
+.footer .ft_icon li{
+    display: inline;
+    padding-left: 24px;
+
 }
