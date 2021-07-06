@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header h1{
+    margin-top: 37px;
+    font-size: 80px;
+    border-bottom: 1px solid #000;
+}
+.head_img{
+    margin: 51px 0px 48px 0px;
+    display: block;
+}
+.title{
+    font-size: 32px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+.titleEn{
+    margin-left:16px;
+    font-size: 24px;
+    color: #A00404;
+}
+.detail li {
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+.skill{
+    background-color: #415165;
+    color: white;
+}
+.skill .skillTitle{
+    font-size: 32px;
+}
