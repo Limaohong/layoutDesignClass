@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: italic;
+  }
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 958px;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center no-repeat;
+    background-size: cover;
+}
+.banner_wrap {
+    padding-top: 308px;
+    color: white;
+    text-align: left;
+}
+.banner_wrap p {
+    font: italic normal bold 24px/42px Roboto;
+}
+.banner_wrap h1{
+    font: italic normal 900 80px/106px Roboto;
+}
+.banner_content {
+    padding-top: 32px;
+}
+.banner_content p{
+    padding-bottom: 40px;
+}
+.banner_content ul{
+    display: flex;
+}
+.banner_content ul li{
+    padding-right: 16px;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.profile_introduction {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 24px;
+}
+.profile_introduction h2{
+    padding: 56px 0px 40px 0px;
+    font: italic normal 700 64px/84px Roboto;
+}
+.profile_introduction img {
+    width: 384px;
+}
+.profile_introduction ul li h3 {
+    font: italic normal bold 24px/42px Roboto;
+}
+
+.profile_introduction ul li p {
+    font: italic normal bold 24px/36px Roboto;
+}
+.profile_skill {
+    margin-top: 28px;
+}
+.profile_skill ul li::before{
+    content: '';
+    background-color: #891818;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.profile_skill ul li{
+    font: italic normal bold 24px/42px Roboto;
+}
+.brand {
+    margin-top: 56px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.brand_wrap {
+    padding: 0px 360px;
+    text-align: center;
+}
+.brand_wrap h2 {
+    font: italic normal 700 64px/84px Roboto;
+    padding: 56px 0px 12px 0px;
+}
+.brand_wrap h3 {
+    font: italic normal 700 24px/42px Roboto;
+    padding-bottom: 32px;
+}
+.brand_wrap p {
+    font: italic normal 700 20px/30px Roboto;
+    padding-bottom: 68px;
+}
+.brand ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.other_work {
+    text-align: center;
+}
+.other_work h2{
+    font: italic normal 700 64px/84px Roboto;
+    padding: 56px 0px 16px 0px;
+}
+.other_work p {
+    font: italic normal 700 20px/30px Roboto;
+    padding-bottom: 56px;
+}
+.other_work ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 336px;
+}
+.other_work ul li {
+    font: normal 700 20px/42px Roboto;
+    padding: 0px 24px 48px 0px;
+}
+.other_work ul li span{
+    font: italic normal 700 20px/42px Roboto;
+    padding: 0px 24px 48px 0px;
+}
+.footer{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding:64px 0px 64px 0px;
+}
+.footer h2{
+    font: italic normal 700 64px/84px Roboto;
+}
+.footer ul li{
+    padding-top: 16px;
+}
+.footer ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: rgb(0, 17, 255);
+}
+.footer ul li a:active{
+    color: rgb(115, 255, 0);
+}
